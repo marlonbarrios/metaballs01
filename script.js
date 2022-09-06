@@ -57,7 +57,7 @@ class metaBallEffects {
     }
 
 const effect = new metaBallEffects(canvas.width, canvas.height);
-effect.init(20);
+effect.init(80);
 
 function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
